@@ -1,0 +1,19 @@
+sudo apt-get update
+sudo apt-get upgrade
+sudo apt-get install bluetooth
+sudo apt-get install bluez
+sudo apt-get install python-bluez
+sudo apt-get install python-scipy
+sudo apt-get install python-pandas
+sudo apt-get install python-numpy
+sudo apt-get install python-pygame
+
+cd ~
+wget https://raw.githubusercontent.com/adafruit/Raspberry-Pi-Installer-Scripts/master/adafruit-pitft.sh
+chmod +x adafruit-pitft.sh
+sudo ./adafruit-pitft.sh
+
+#Despues de ejecutar este ultimo 
+fragemento en la terminal
+se deben realizar ajustes
+es inicio->Preferencias->Screenconfiguration
